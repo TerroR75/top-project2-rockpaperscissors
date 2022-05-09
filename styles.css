@@ -41,8 +41,8 @@ body {
     text-align: center;
 }
 
-.player-card-number,
-.computer-card-number {
+#player-card-number,
+#computer-card-number {
     font-size: 6rem;
 }
 
@@ -65,6 +65,12 @@ body {
 .btn:hover {
     box-shadow: 0px 0px 39px 7px rgba(252, 163, 17, 1);
     opacity: 1;
+}
+
+.description {
+    color: var(--secondary-accent-color);
+    text-align: center;
+    padding: 4rem 0rem;
 }
 
 
