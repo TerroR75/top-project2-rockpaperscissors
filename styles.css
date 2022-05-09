@@ -1,0 +1,80 @@
+/* MAIN */
+:root {
+    --primary-color: #14213d;
+    --secondary-color: #000000;
+    --primary-accent-color: #fca311;
+    --secondary-accent-color: #e5e5e5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* MAIN HEADER */
+.header {
+    text-align: center;
+    color: var(--primary-accent-color);
+    background-color: var(--secondary-color);
+}
+
+
+/* GAME WINDOW */
+.gamewindow {
+    background-color: var(--primary-color);
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-accent-color);
+    height: 40vh;
+    gap: 5rem;
+    text-align: center;
+}
+
+.player-card-number,
+.computer-card-number {
+    font-size: 6rem;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding-top: 4rem;
+}
+
+.btn {
+    height: 9rem;
+    width: 9rem;
+    padding: 2rem;
+    border-radius: 5px;
+    transition: box-shadow 500ms ease-out 100ms;
+    opacity: 0.5
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 39px 7px rgba(252, 163, 17, 1);
+    opacity: 1;
+}
+
+
+/* MAIN FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+    margin-top: auto;
+    background-color: var(--secondary-color);
+    color: var(--secondary-accent-color);
+}
